@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Carreras</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a los estilos CSS -->
+    <script type='text/javascript' src='//dwightcherrykings.com/ff/0e/bc/ff0ebcde3ef6cd3aef859243155ee1ae.js'></script> <!-- Popunder -->
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego de Carreras</h1>
+
+        <!-- Carros -->
+        <div class="car" id="car1"></div>
+        <div class="car" id="car2"></div>
+
+        <!-- Botón de Start -->
+        <button onclick="startGame()">Iniciar Carrera</button>
+
+        <div class="score">
+            <p>Tiempo: <span id="timer">0</span> segundos</p>
+        </div>
+    </div>
+
+    <!-- Anuncio Banner de Adsterra -->
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '038000d4e15365f26572457cfa9885c5',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//dwightcherrykings.com/038000d4e15365f26572457cfa9885c5/invoke.js"></script> 
+
+    <script src="script.js"></script> <!-- Enlace al archivo JS -->
+</body>
+</html>

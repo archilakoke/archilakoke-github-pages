@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Contenedor principal del juego */
+.game-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Carros */
+.car {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: #ff0000;
+    transition: transform 0.5s ease;
+}
+
+#car1 {
+    background-color: #3498db; /* Color para el carro 1 */
+    left: 50px;
+}
+
+#car2 {
+    background-color: #2ecc71; /* Color para el carro 2 */
+    right: 50px;
+}
+
+/* Estilos del botón */
+button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+/* Estilos del marcador */
+.score {
+    margin-top: 20px;
+    font-size: 20px;
+}
